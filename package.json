@@ -1,0 +1,11 @@
+{
+  "name": "taskflow-workspace",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix mobile start",
+    "android": "npm --prefix mobile run android",
+    "start:api": "npm --prefix backend run start:dev",
+    "test:mobile": "npm --prefix mobile test",
+    "test:api": "npm --prefix backend test"
+  }
+}
